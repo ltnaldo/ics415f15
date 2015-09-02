@@ -1,0 +1,35 @@
+h1 {
+  border: solid greenyellow;
+  padding: 25px;
+  text-align: center;
+  color: purple;
+  background-color: silver;
+}
+
+article {
+  padding: 25px;
+  width: 50%;
+  text-align: center;
+  float: right;
+  color: peru;
+  font-family: monospace;
+}
+
+p.hawnstyle {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+form {
+  border: 1px solid;
+  padding: 10px;
+}
+
+p.foot {
+  border: solid darkblue;
+  padding: 10px;
+  text-align: center;
+  background-color: deepskyblue;
+  font-family: "Verdana";
+  font-style: italic;
+}
