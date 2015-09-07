@@ -1,0 +1,53 @@
+body{
+  background-color:palegoldenrod;
+}
+
+header {
+  border-top:2px solid green;
+  border-bottom:1px solid;
+  text-align:center;
+  height:25%;
+  background-color:limegreen;
+}
+
+h1.title {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  color:darkslategray;
+}
+
+form {
+  font-family: "Palatino Linotype", Palatino, serif;
+}
+
+nav {
+  position:relative;
+  border-bottom:1px solid;
+  padding:5px;
+  height:50px;
+  line-height:50px;
+  background-color:silver;
+}
+
+aside {
+  padding:10px;
+  height:525px;
+  width:25%;
+  float:left;
+  background-color:deepskyblue;
+}
+
+section {
+  padding:10px;
+  width:71%;
+  float:left;
+}
+
+footer{
+  border-top:1px solid;
+  border-bottom:1px solid;
+  clear:both;
+  padding:10px;
+  height:50px;
+  line-height:50px;
+  background-color:orange;
+}

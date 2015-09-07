@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <title>A05 Conglomerate</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">HTML5 FUNK</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="forms.html">Forms</a>
+  </nav>
+  <aside>
+    <h3>Feedback</h3>
+    <p>HTML5 has new input types so we can get more information from our visitors. New types include date, time, URL,
+      email addresses, colors, numbers and more!</p>
+    <p>By the way, fill out the form on the right and answer some questions about yourself.
+      We would love to hear back from you!</p>
+  </aside>
+  <section>
+    <h1>Tell Us About Yourself</h1>
+    <form name="input" action="forms.html" method="get">
+      <p>First name: <input type="text" name="firstname"><br>
+      Last name: <input type="text" name="lastname"></p>
+      <p>Gender:
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female </p>
+      <p>Email: <input type="email" name="email"></p>
+      <p>Birthday: <input type="date" name="bday"></p>
+      <p>The best time to contact you:<br>
+      <input type="time" name="time"></p>
+      <p>Your favourite colour: <input type="color" name="favcolour" value="#003366"></p>
+      <p>Your secret number: <input type="number" name="secretno" min="0" max="100"></p>
+      <p>Your experience in HTML5 ("Novice" <-> "Master")<br>
+        <input type="range" name="exp" min="0" max="10"></p>
+      <p>Home page: <input type="url" name="homepage"></p>
+      <p><input type="submit" value="Submit!"></p>
+    </form>
+  </section>
+  <footer>
+    Copyright (C)2015 Leon Naldo
+  </footer>
+</body>
+</html>
