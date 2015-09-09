@@ -1,0 +1,45 @@
+h1 {
+  border: solid greenyellow;
+  padding: 25px;
+  text-align: center;
+  color: purple;
+  background-color: silver;
+}
+
+nav {
+  position:relative;
+  border-bottom:1px solid;
+  padding:5px;
+  line-height:50px;
+  background-color:silver;
+  font-family: "Georgia", serif;
+}
+
+aside {
+  padding: 10px;
+  text-align: center;
+  float: left;
+  color: peru;
+  font-family: monospace;
+}
+
+p.hawnstyle {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+section {
+  border: 1px solid;
+  padding: 10px;
+  float: left;
+}
+
+footer {
+  border: solid darkblue;
+  padding: 10px;
+  clear: both;
+  text-align: center;
+  background-color: deepskyblue;
+  font-family: "Verdana";
+  font-style: italic;
+}
