@@ -1,0 +1,15 @@
+body {
+  background-color:silver;
+}
+
+#panel, #flip{
+  padding: 5px;
+  text-align: center;
+  background-color:palegoldenrod;
+  border: solid 1px greenyellow;
+}
+
+#panel {
+  padding: 10px;
+  display: none;
+}
