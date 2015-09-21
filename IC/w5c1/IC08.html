@@ -30,6 +30,10 @@
     <p class="text-danger">Double-click your demons away!</p>
   </div>
 
+  <div class="bg-primary" id="emphaSize">
+    <p class="text-center" id="eye">Normal.</p>
+  </div>
+
   <div id="flip">
     This flips scripts!
   </div>
@@ -47,6 +51,14 @@
   $(document).ready(function() {
     $("#daemonslash").dblclick(function(){
       $(this).hide();
+    });
+
+    $("#emphaSize").mouseenter(function(){
+      $("#eye").text("Big Red").css("color","red").css("font-size","250%");
+    });
+
+    $("#emphaSize").mouseleave(function(){
+      $("#eye").text("Normal").css("color","white").css("font-size","100%");
     });
 
     $("#flip").click(function(){
