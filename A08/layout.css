@@ -1,0 +1,18 @@
+body {
+  background-color: lemonchiffon;
+}
+
+h1 {
+  text-align: center;
+}
+
+.panel, .flip {
+  padding: 5px;
+  background-color: palegoldenrod;
+  border: solid 1px black;
+}
+
+.panel {
+  padding: 5px;
+  display: none;
+}
